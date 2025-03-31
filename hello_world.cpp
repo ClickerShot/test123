@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-    cout << "Hello world"<<end;
+    string name;
+    cout << "Enter name \n";
+    cin >> name;
+    cout << "Hello world from"<< name <<endl;
     return 0;
 }
